@@ -918,7 +918,7 @@ aptfast_install ruby
 
 git clone https://github.com/Itseez/opencv.git
 
-cd ~/opencv
+cd opencv
 mkdir release
 cd release
 
