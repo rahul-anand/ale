@@ -914,13 +914,14 @@ aptfast_install libpng-dev
 aptfast_install libtiff-dev 
 aptfast_install libjasper-dev 
 aptfast_install libdc1394-22-dev
-aptfast_install ruby
+aptfast_install ruby-dev
 
+cd /tmp/
 git clone https://github.com/Itseez/opencv.git
 
-cd opencv
+cd /tmp/opencv
 mkdir release
-cd release
+cd /tmp/opencv/release
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
 
@@ -935,6 +936,10 @@ sudo make install/strip
 apt-get install packagekit-gtk3-module
 
 #Ruby
+#aptfast_install ruby 
+#aptfast_install rubygems
+#aptfast_install cmake
+#aptfast_install g++
 gem install ropencv
 }
 
@@ -993,4 +998,3 @@ fi
 install_opencv
 
 exit 0
-
