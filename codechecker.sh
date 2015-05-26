@@ -917,7 +917,7 @@ aptfast_install libdc1394-22-dev
 aptfast_install ruby-dev
 
 cd /tmp/
-git clone https://github.com/Itseez/opencv.git
+git clone https://github.com/rahul-anand/opencv.git
 
 cd /tmp/opencv
 mkdir release
