@@ -930,10 +930,10 @@ make -j6
 sudo make install/strip
 
 #For Python Language
- apt-get install python-numpy
- apt-get install python-opencv
-  apt-get install libcanberra-gtk-module
-apt-get install packagekit-gtk3-module
+ aptfast_install python-numpy
+ aptfast_install python-opencv
+ aptfast_install libcanberra-gtk-module
+aptfast_install packagekit-gtk3-module
 
 #Ruby
 #aptfast_install ruby 
